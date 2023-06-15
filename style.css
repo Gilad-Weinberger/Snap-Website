@@ -1,0 +1,163 @@
+:root{
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+}
+body{
+    font-family: 'Epilogue', sans-serif;
+    padding: 0px;
+    background-color: var(--Almost-White);
+}
+.navbar{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    display: flex;
+}
+.logo{
+    height: 30px;
+    margin-right: 80px;
+}
+.features{
+    margin-right: 50px;
+}
+.f-top-menu, .c-top-menu{
+    display: flex;
+}
+.f-top-menu p{
+    margin-top: 3px;
+    margin-right: 8px;
+    color: gray;
+}
+.f-top-menu p:hover{
+    color: black;
+}
+.f-top-menu img{
+    height: 5px;
+    margin-top: 10px;
+}
+.f-down-menu, .c-down-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.2);
+    margin-right: 0px;
+}
+.f-down-menu{
+    margin-left: -70px;
+    display: none;
+    position: absolute;
+}
+.c-down-menu{
+    display: none;
+    margin-left: -30px;
+    position: absolute;
+}
+.f-down-menu-link, .c-down-menu-link{
+    text-decoration-line: none;
+    color: black;
+    margin-bottom: 8px;
+}
+.c-down-menu-link{
+    margin-bottom: 11px;
+}
+.f-down-menu-link img{
+    margin-right: 8px;
+}
+.company{
+    margin-right: 50px;
+}
+.c-top-menu p{
+    margin-top: 3px;
+    margin-right: 8px;
+    color: gray;
+}
+.c-top-menu p:hover{
+    color: black;
+}
+.c-top-menu img{
+    height: 5px;
+    margin-top: 10px;
+}
+.careers, .about{
+    margin-top: 3px;
+    margin-right: 50px;
+    text-decoration-line: none;
+    color: gray;
+}
+.careers:hover, .about:hover{
+    color: black;
+}
+.right-bar{
+    position: absolute;
+    right: 30px;
+}
+.login{
+    border-radius: 10px;
+    border: none;
+    background: none;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-right: 20px; 
+    color: gray;
+}
+.login:hover{
+    color: black;
+}
+.register{
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+}
+.register:hover{
+    color: black;
+    border: 1px solid black;
+}
+.main{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+}
+.left{
+    margin-right: 300px;
+}
+.title{
+    font-size: 80px;
+    line-height: 75px;
+}
+.description{
+    max-width: 370px;
+    color: var(--Almost-Black);
+    letter-spacing: 0.3px;
+    margin-bottom: 50px;
+}
+.learn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 50px;
+}
+.learn:hover{
+    background: none;
+    color: black;
+}
+.social-logo{
+    margin-right: 30px;
+}
+.big-image{
+    width: 400px;
+}

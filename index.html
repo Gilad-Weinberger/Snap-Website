@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+        <title>Intro Website Section</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="images/logo.svg" alt="logo" class="logo">
+            <div class="features">
+                <div class="f-top-menu">    
+                    <p onclick="fMenuFlip()">Features</p>
+                    <img class="f-arrow" src="images/icon-arrow-down.svg" onclick="fMenuFlip()" alt="">
+                </div>
+                <div class="f-down-menu">
+                    <a href="" class="f-down-menu-link"><img src="images/icon-todo.svg" alt=""> Todo List</a>
+                    <a href="" class="f-down-menu-link"><img src="images/icon-calendar.svg" alt=""> Calendar</a>
+                    <a href="" class="f-down-menu-link"><img src="images/icon-reminders.svg" alt=""> Reminders</a>
+                    <a href="" class="f-down-menu-link"><img src="images/icon-planning.svg" alt=""> Planning</a>
+                </div>
+            </div>
+            <div class="company">
+                <div class="c-top-menu">  
+                    <p onclick="cMenuFlip()">Company</p>
+                    <img class="c-arrow" src="images/icon-arrow-down.svg" alt="" onclick="cMenuFlip()">
+                </div>
+                <div class="c-down-menu">
+                    <a href="" class="c-down-menu-link">History</a>
+                    <a href="" class="c-down-menu-link">Our Team</a>
+                    <a href="" class="c-down-menu-link">Blog</a>
+                </div>
+            </div>
+            <a href="" class="careers">Careers</a>
+            <a href="" class="about">About</a>
+            <div class="right-bar">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <h1 class="title">Make<br>remote work</h1>
+                <p class="description">
+                    Get your team in sync, no matter your location.
+                    Streamline processes. create team rituals, and
+                    watch productivity soar.
+                </p>
+                <button class="learn">Learn more</button>
+                <div class="social">
+                    <img src="images/client-databiz.svg" alt="" class="social-logo">
+                    <img src="images/client-audiophile.svg" alt="" class="social-logo">
+                    <img src="images/client-meet.svg" alt="" class="social-logo">
+                    <img src="images/client-maker.svg" alt="" class="social-logo">
+                </div>
+            </div>
+            <img src="images/image-hero-desktop.png" alt="" class="big-image">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
